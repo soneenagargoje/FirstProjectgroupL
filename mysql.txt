@@ -1,0 +1,18 @@
+create database studentregistrationdetails;
+use studentregistrationdetails;
+
+create table registrationdetails (
+
+id int not null auto_increment,
+Firstname varchar(250),
+Lastname varchar(250),
+Username varchar(250),
+Password varchar(250),
+City varchar(250),
+MailId varchar(250),
+MobileNumber varchar(250),
+primary key (id)
+
+);
+
+select * from registrationdetails;
